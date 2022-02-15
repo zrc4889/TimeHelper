@@ -16,8 +16,8 @@ def timeclock():
         # print('倒计时(s):', time_left)
         time.sleep(1)
         time_left = time_left - 1
-    tkinter.messagebox.showwarning(
-        'Warning', 'The 20-minute usage time has expired, please save your work and leave this computer to rest immediately.')
+    # tkinter.messagebox.showwarning(
+    #     'Warning', 'The 20-minute usage time has expired, please save your work and leave this computer to rest immediately.')
     os.system("logoff")
 
 
