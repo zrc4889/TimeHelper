@@ -37,6 +37,11 @@ def dos():
 
 # style = Style(theme='lumen')
 # window = style.master
+# if datetime.datetime.now().hour == 
+n = datetime.datetime.now().hour
+if n != 9 or n != 16 or n != 20:
+    os.system("logoff")
+
 dos()
 # ttk.Button(window, text="Healthy Mode", command=dos, style='success.TButton').pack(
 #     side='left', padx=5, pady=10)
