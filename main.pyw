@@ -11,7 +11,7 @@ import datetime
 # from repo "python" to repo "TimeHelper"
 
 def timeclock():
-    time_left = 1200
+    time_left = 2400
     while time_left > 0:
         # print('倒计时(s):', time_left)
         time.sleep(1)
