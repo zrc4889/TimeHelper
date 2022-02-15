@@ -35,11 +35,11 @@ def dos():
     timec.start()
 
 
-style = Style(theme='lumen')
-window = style.master
+# style = Style(theme='lumen')
+# window = style.master
 dos()
 # ttk.Button(window, text="Healthy Mode", command=dos, style='success.TButton').pack(
 #     side='left', padx=5, pady=10)
 # ttk.Button(window, text="Default", command=default, style='success.Outline.TButton').pack(
 #     side='left', padx=5, pady=10)
-window.mainloop()
+# window.mainloop()
